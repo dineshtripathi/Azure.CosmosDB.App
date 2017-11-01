@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 using Azure.CosmosDB.Net.EntityModel;
+using Azure.CosmosDB.Net.FluentAPI.CRUDOperation.Interface;
 
-namespace Azure.CosmosDB.Net.Interfaces.CRUDOperation
+namespace Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation
 {
     public interface IProvideCrudOperation
     {

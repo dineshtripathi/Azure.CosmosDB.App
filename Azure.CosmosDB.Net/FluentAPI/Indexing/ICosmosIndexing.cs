@@ -1,4 +1,4 @@
-﻿namespace Azure.CosmosDB.Net.Interfaces.Indexing
+﻿namespace Azure.CosmosDB.Net.FluentInterfaces.Indexing
 {
     public interface ICosmosIndexing
     {

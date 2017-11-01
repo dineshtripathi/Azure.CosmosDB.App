@@ -161,30 +161,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AzureDataFactory\Implementation\AzureDbDataFactory.cs" />
+    <Compile Include="AzureDataFactory\Implementation\AzureDbFactoryInitialize.cs" />
+    <Compile Include="AzureDataFactory\Implementation\BlobDataFactory.cs" />
+    <Compile Include="AzureDataFactory\Implementation\BlobDataFactoryInitialize.cs" />
+    <Compile Include="AzureDataFactory\Implementation\ConnectionString.cs" />
+    <Compile Include="AzureDataFactory\Implementation\FactoryType.cs" />
+    <Compile Include="AzureDataFactory\Interfaces\IBlobDataFactoryInitialize.cs" />
+    <Compile Include="AzureDataFactory\Interfaces\IFactoryBaseInitialize.cs" />
+    <Compile Include="AzureDataFactory\Interfaces\ImplementDataFacotry.cs" />
+    <Compile Include="AzureDataFactory\Interfaces\IProvideDataFactory.cs" />
+    <Compile Include="AzureDataFactory\Interfaces\ISqlDataFactoryInitialize.cs" />
+    <Compile Include="AzureDataFactory\Implementation\RootObject.cs" />
     <Compile Include="DataServices\Routes.cs" />
     <Compile Include="EntityModel\BaseEntity.cs" />
     <Compile Include="CosmosDbNet.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IExecute.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IInclude.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IOrderBy.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IOrderbyAscending.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IOrderbyDescending.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IPage.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IProvideCrudOperation.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IWhereOperation.cs" />
-    <Compile Include="Interfaces\CRUDOperation\ProvideCrudOperation.cs" />
-    <Compile Include="Interfaces\Indexing\ICosmosIndexing.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IDeleteOperation.cs" />
-    <Compile Include="Interfaces\CRUDOperation\IUpsertOperation.cs" />
-    <Compile Include="Interfaces\Management\ICosmosDBManagement.cs" />
-    <Compile Include="Interfaces\Partitioning\ICosmosGeoPartitioning.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IExecute.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IInclude.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IOrderBy.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IOrderbyAscending.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IOrderbyDescending.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IPage.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IProvideCrudOperation.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IWhereOperation.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\ProvideCrudOperation.cs" />
+    <Compile Include="FluentAPI\Indexing\ICosmosIndexing.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IDeleteOperation.cs" />
+    <Compile Include="FluentAPI\CRUDOperation\Interface\IUpsertOperation.cs" />
+    <Compile Include="FluentAPI\Management\ICosmosDBManagement.cs" />
+    <Compile Include="FluentAPI\Partitioning\ICosmosGeoPartitioning.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Auditing\" />
-    <Folder Include="AutoMapper\" />
+    <Folder Include="AzureEvent\" />
+    <Folder Include="AzureServiceBus\" />
+    <Folder Include="AzureStorage\" />
     <Folder Include="BaseClass\" />
+    <Folder Include="Infrastructure\Auditing\" />
     <Folder Include="Infrastructure\AutoFac\" />
+    <Folder Include="Infrastructure\AutoMapper\" />
     <Folder Include="Infrastructure\Configuration\" />
     <Folder Include="Infrastructure\Exception\" />
     <Folder Include="Infrastructure\Indexing\" />

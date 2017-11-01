@@ -1,9 +1,8 @@
-﻿using Azure.CosmosDB.Net.EntityModel;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq.Expressions;
+using Azure.CosmosDB.Net.EntityModel;
 
-namespace Azure.CosmosDB.Net.Interfaces.CRUDOperation
+namespace Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation
 {
     public interface IWhereOperation<T> where T : BaseEntity
     {

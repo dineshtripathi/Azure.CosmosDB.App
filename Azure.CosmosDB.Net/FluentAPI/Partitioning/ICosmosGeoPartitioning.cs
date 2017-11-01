@@ -1,4 +1,4 @@
-﻿namespace Azure.CosmosDB.Net.Interfaces.Partitioning
+﻿namespace Azure.CosmosDB.Net.FluentInterfaces.Partitioning
 {
     public interface ICosmosGeoPartitioning
     {

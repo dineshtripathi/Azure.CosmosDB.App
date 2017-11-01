@@ -1,0 +1,21 @@
+﻿{
+  "FactoryType": [
+    {
+      "Type": "StorageBlobFactory",
+      "Region": "Europe West",
+      "InputBlobPath": "",
+      "OutputBlobPath": "" 
+
+    },
+    {
+      "Type": "AzureDbFactory",
+      "Region": "Europe West",
+      "ConnectionString": [
+        {
+          "Endpoint": "ConnectionEndpoint",
+          "SecretKey" : "SecretKey" 
+        }
+      ] 
+    }
+   ]
+}

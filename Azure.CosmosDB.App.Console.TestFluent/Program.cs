@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Azure.CosmosDB.Net.Interfaces.CRUDOperation;
+using Azure.CosmosDB.Net.FluentAPI.CRUDOperation;
+using Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation;
 
 namespace Azure.CosmosDB.App.Console.TestFluent
 {

@@ -1,4 +1,4 @@
-﻿namespace Azure.CosmosDB.Net.Interfaces.CRUDOperation
+﻿namespace Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation
 {
     public interface IInclude
     {

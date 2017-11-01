@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Azure.CosmosDB.Net.EntityModel;
 
-namespace Azure.CosmosDB.Net.Interfaces.CRUDOperation
+namespace Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation
 {
     public interface IUpsertOperation<in TOfBaseType> where TOfBaseType : BaseEntity
     {
