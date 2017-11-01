@@ -190,6 +190,7 @@
     <Compile Include="FluentAPI\CRUDOperation\Interface\IUpsertOperation.cs" />
     <Compile Include="FluentAPI\Management\ICosmosDBManagement.cs" />
     <Compile Include="FluentAPI\Partitioning\ICosmosGeoPartitioning.cs" />
+    <Compile Include="Infrastructure\Partitioning\CosmosDbPartitioning.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -205,7 +206,6 @@
     <Folder Include="Infrastructure\Indexing\" />
     <Folder Include="Infrastructure\Logging\" />
     <Folder Include="Infrastructure\Managment\" />
-    <Folder Include="Infrastructure\Partitioning\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

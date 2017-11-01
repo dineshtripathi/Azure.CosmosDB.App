@@ -2,7 +2,6 @@
 using System.Linq.Expressions;
 using Azure.CosmosDB.Net.EntityModel;
 using Azure.CosmosDB.Net.FluentAPI.CRUDOperation.Interface;
-using Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation;
 
 namespace Azure.CosmosDB.Net.FluentAPI.CRUDOperation
 {

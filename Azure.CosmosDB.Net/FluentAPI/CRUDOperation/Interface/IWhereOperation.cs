@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using Azure.CosmosDB.Net.EntityModel;
 
-namespace Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation
+namespace Azure.CosmosDB.Net.FluentAPI.CRUDOperation.Interface
 {
     public interface IWhereOperation<T> where T : BaseEntity
     {

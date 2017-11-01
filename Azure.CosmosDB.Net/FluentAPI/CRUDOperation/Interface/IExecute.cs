@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Azure.CosmosDB.Net.EntityModel;
 
-namespace Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation
+namespace Azure.CosmosDB.Net.FluentAPI.CRUDOperation.Interface
 {
     public interface IExecute
     {

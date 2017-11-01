@@ -1,4 +1,4 @@
-﻿namespace Azure.CosmosDB.Net.FluentInterfaces.CRUDOperation
+﻿namespace Azure.CosmosDB.Net.FluentAPI.CRUDOperation.Interface
 {
     public interface IOrderBy
     {

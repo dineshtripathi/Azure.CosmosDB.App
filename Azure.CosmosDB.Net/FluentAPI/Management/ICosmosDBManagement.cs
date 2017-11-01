@@ -1,4 +1,4 @@
-﻿namespace Azure.CosmosDB.Net.FluentInterfaces.Management
+﻿namespace Azure.CosmosDB.Net.FluentAPI.Management
 {
     public interface ICosmosDbManagement
     {
