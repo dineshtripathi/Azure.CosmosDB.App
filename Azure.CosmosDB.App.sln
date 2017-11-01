@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.CosmosDB.Net", "Azure.CosmosDB.Net\Azure.CosmosDB.Net.csproj", "{243C1A7C-B29C-49AE-B577-5F205BEFDC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.CosmosDB.App.Console.TestFluent", "Azure.CosmosDB.App.Console.TestFluent\Azure.CosmosDB.App.Console.TestFluent.csproj", "{F6A785D4-9C81-4374-9F7C-64F60070CD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243C1A7C-B29C-49AE-B577-5F205BEFDC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243C1A7C-B29C-49AE-B577-5F205BEFDC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243C1A7C-B29C-49AE-B577-5F205BEFDC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243C1A7C-B29C-49AE-B577-5F205BEFDC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A785D4-9C81-4374-9F7C-64F60070CD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A785D4-9C81-4374-9F7C-64F60070CD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A785D4-9C81-4374-9F7C-64F60070CD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A785D4-9C81-4374-9F7C-64F60070CD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+		SolutionGuid = {570C9FB5-34E4-4433-9163-BE94CF3217B6}
+	EndGlobalSection
+EndGlobal
