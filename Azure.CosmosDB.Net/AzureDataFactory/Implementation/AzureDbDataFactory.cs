@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Azure.CosmosDB.Net.AzureDataFactory.Interfaces;
 
 namespace Azure.CosmosDB.Net.AzureDataFactory.Implementation
@@ -13,7 +14,8 @@ namespace Azure.CosmosDB.Net.AzureDataFactory.Implementation
         }
         public async Task<int> Initialize()
         {
-            return await Task.FromResult(0);
+            var appId=_sqlDataFactoryInitialize.ApplicationId;
+            return await Task.FromResult(Convert.ToInt32(appId)).ConfigureAwait(false);
         }
     }
 }

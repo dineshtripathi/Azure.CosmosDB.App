@@ -11,7 +11,7 @@ namespace Azure.CosmosDB.Net.Infrastructure.Partitioning
     {
         public async Task<bool> CreateGeoPartition(string geoBuilder)
         {
-            return await Task.FromResult(true);
+            return await Task.FromResult(true).ConfigureAwait(false);
         }
     }
 }

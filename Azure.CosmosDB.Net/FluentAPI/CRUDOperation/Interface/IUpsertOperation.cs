@@ -7,7 +7,7 @@ namespace Azure.CosmosDB.Net.FluentAPI.CRUDOperation.Interface
     public interface IUpsertOperation<in TOfBaseType> where TOfBaseType : BaseEntity
     {
         Task Upsert(TOfBaseType upsertData,Action<string,bool> log);
-        Task Upsert<TOut>(TOfBaseType upsertData,Action<string,bool> log, out TOut output);
+        Task<TOut> Upsert<TOut>(TOfBaseType upsertData,Action<string,bool> log);
 
     }
 }
